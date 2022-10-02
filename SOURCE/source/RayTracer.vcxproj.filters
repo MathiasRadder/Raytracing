@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{ddb17eba-e15e-4597-8bf6-064b16b159d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeometricObjects">
+      <UniqueIdentifier>{edc4fe56-b326-4778-b2ea-1b0aaa96975e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{7dc7601c-0d72-4039-9106-268a6d69d735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{6245a1d3-51e5-4eb1-a272-661e6b733171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{d264be39-cf35-4206-8f79-78796019404b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RayTracer.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMathUtilities.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ERenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ERGBColor.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ETimer.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ERay.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EGeometricObject.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EHitRecord.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="EPlane.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ESphere.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ESceneGraph.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="ESingleton.h" />
+    <ClInclude Include="ESceneGraphManager.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="ECamera.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ELight.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="EPointLight.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="EMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="ELambertMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="EDirectionLight.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="EBRDF.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="EPhongLambertMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="ECookTorranceMaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="ETriangle.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ETrianglesMesh.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EMaterialManager.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ERenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ETimer.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="EPlane.cpp">
+      <Filter>GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ESphere.cpp">
+      <Filter>GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ESceneGraph.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="ESceneGraphManager.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="ECamera.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EPointLight.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="ELambertMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="EDirectionLight.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="EBRDF.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="EPhongLambertMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="ECookTorranceMaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="ETriangle.cpp">
+      <Filter>GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ETrianglesMesh.cpp">
+      <Filter>GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EMaterialManager.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

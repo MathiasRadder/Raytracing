@@ -1,0 +1,25 @@
+Controls:
+Camera controls:
+Like unreal engine.
+Mouse:
+- Rotate Yaw (RMB + Mouse Move X) 
+- Rotate Pitch (RMB + Mouse Move Y) 
+- Move (local) Forward/Backward (LMB + Mouse Move Y) 
+-  Rotate Yaw (LMB + Mouse Move X) 
+-  Move (world) Up/Down/Left/Right (MMB) 
+
+Keyboard:
+- Move (local) Forward (Arrow Up) and (W) 
+- Move (local) Backward (Arrow Down) and (S) 
+- Move (local) Right (Arrow Right) and (D) 
+- Move (local) Left (Arrow Left) and (A) 
+
+Rendering:
+Keyboard:
+- Toggle Shadows ON/OFF (Q) 
+- Toggle Light-Equation Terms (E) 
+- enable/disable directional light(J)
+- enable/disable left-right point light(K-L)
+- Switch scene (G)
+
+Press T for controls.
